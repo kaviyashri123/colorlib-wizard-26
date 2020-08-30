@@ -1,0 +1,346 @@
+body {
+	margin:  0;
+}
+I understand how
+ul { list-style-type:none;
+div {
+  background-color: powderblue
+}
+ margin:1; padding:1; padding-top:7px; padding-bottom:5px; } li { display:inline; } a:link,a:visited { font-weight:bold; color:#CC3DD; background-color:#90EE90; text-align:center; padding:6px; text-decoration:italic; 
+text-transform:uppercase;} a:hover,a:active { background-color:#FF1493; 
+}
+.page-content {
+	width: 100%;
+	margin:  0 auto;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: center;
+	-o-justify-content: center;
+	-ms-justify-content: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	align-items: center;
+	-o-align-items: center;
+	-ms-align-items: center;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	background: #383a4f;
+	flex-direction: column;
+	-o-flex-direction: column;
+	-ms-flex-direction: column;
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+}
+.page-content {
+  display: flex;
+}
+.headerLogo {
+  padding: 5px;
+  float:left;
+}
+.wizard-heading {
+  padding: 5px;
+  
+}
+div.logo1{
+float:left;
+position: relative;
+display: inline-block;
+right:-20px;
+bottom:1px;
+}
+div.logo3{
+float:right;
+display: inline-block;
+position: relative;
+top:-80px;
+right:-60px;
+}
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.active, .collapsible:hover {
+  background-color: #555;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: green;
+}
+/* The actual popup */
+.popup .popuptext {
+background-color: "red"; 
+ visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+.button{
+	text-align: center;
+}
+/* Popup arrow */
+.popup .popuptext::after {
+	
+text-align: center;
+ content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+#mainHeader{
+text-align: center;
+position: relative;
+}
+.marquee{
+	background-color: "blue";
+	top: 100px;
+	font-size: 10px;
+}
+div.headerDiv{
+color: black;
+ background-color: blue;
+ height: 80px;
+ font-size: 30px
+}
+.wizard-v6-content   {
+	width: 910px;
+	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+	-o-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+	2-ms-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	margin: 0 0 90px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	position: relative;
+	display: flex;
+	display: -webkit-flex;
+}
+.wizard-v6-content .wizard-form {
+	width: 100%;
+	background: #525575;
+	border-radius: 10px;
+	-o-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.form-register .steps {
+	padding:  35px 50px 20px;
+}
+.form-register .steps ul {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -o-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    width: 100%;
+}
+.form-register .steps li,
+.form-register .steps li.current {
+	outline: none;
+	-o-outline: none;
+    -ms-outline: none;
+    -moz-outline: none;
+    -webkit-outline: none;
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    position: relative;
+    width: 33.33%;
+    margin-right: 20px;
+    background: #fff;
+}
+.form-register .steps li:last-child {
+	margin-right: 0;
+}
+.form-register .steps li .current-info {
+	display: none;
+}
+.form-register .steps li a {
+	text-decoration: none;
+	outline: none;
+	-o-outline: none;
+    -ms-outline: none;
+    -moz-outline: none;
+    -webkit-outline: none;
+}
+.form-register .steps li a .title {
+	display: flex;
+	display: -webkit-flex;
+}
+.form-register .steps li a .title .step-icon { 
+    position: relative;
+    outline: none;
+    -o-outline: none;
+    -ms-outline: none;
+    -moz-outline: none;
+    -webkit-outline: none;
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.14);
+    -o-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.14);
+    -ms-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.14);
+    -webkit-box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.14);
+    font-size: 18px;
+    color: #fff;
+    font-size: 25px;
+    background: #ccc;
+    padding: 30px;
+    margin: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.form-register .steps li a .step-icon span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.form-register .steps li.current a .step-icon,
+.form-register .steps li.current a:active .step-icon,
+.form-register .steps li.done a .step-icon,
+.form-register .steps li.done a:active .step-icon {
+	background: #55e8d5;
+}
+@media screen and (max-width: 575px) {
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+}
+ * {
+  box-sizing: border-box;
+}
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+img {
+  border-radius: 37px;
+}
+body {background-color: green;}
+/* Create four equal columns that floats next to each other */
+.c {
+  float: left;
+  width: 24%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.r:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+button{
+}
